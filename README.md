@@ -1,5 +1,9 @@
 # Tally-Hackathon submission
 
+## Add a .env file in ./backend/ with following info
+- PROD_MONGODB= <MONGO_URI>
+- SECRETORKEY= <SECRET_KEY>
+
 ## To Run backend:
 - cd ./backend/
 - npm i
