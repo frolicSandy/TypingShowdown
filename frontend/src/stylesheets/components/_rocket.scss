@@ -1,0 +1,51 @@
+.rocket-container {
+  width: 800px;
+  align-items: center;
+  justify-content: flex-start;
+  p {
+    color: $white;
+    margin-left: -100px;
+  }
+}
+
+.rocket-left {
+  text-align: right;
+}
+
+.rocket-img {
+  height: 100px;
+  color: white;
+}
+
+.progress-meter {
+  margin: 60px;
+  align-items: center;
+  position: relative;
+}
+
+.earth {
+  margin-right: -30px;
+  height: 300px;
+}
+.mars {
+  margin-left: -80px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 900px) {
+  .rocket-container {
+    width: 600px;
+  }
+  .earth {
+    height: 100px;
+    margin-right: -20px;
+  }
+  .mars {
+    height: 75px;
+    margin-left: -60px;
+
+  }
+  .rocket-img {
+    height: 55px;
+  }
+}
