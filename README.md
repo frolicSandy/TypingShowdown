@@ -2,8 +2,8 @@
 
 ## Add a .env file in ./backend/ with following info
 - NODE_ENV=development
-- PROD_MONGODB= <MONGO_URI>
-- SECRETORKEY= <SECRET_KEY>
+- PROD_MONGODB = <MONGO_URI>
+- SECRETORKEY = <SECRET_KEY>
 
 ## To Run backend:
 - cd ./backend/
